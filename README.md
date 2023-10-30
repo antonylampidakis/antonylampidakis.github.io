@@ -1,20 +1,9 @@
 # antonylampidakis.github.io
 
 Hello word !!! 
-
-Επικοινωνία 
-  1) antonylampidakis@gmail.com
-  2) sdi2200088@di.uoa.gr
      
 
 ## 👋 Hi there, I'm Antony Giorgos Lampidakis 
-
-## Προσωπικά στοιχεία :
-   - Αντώνης Γιώργος Λαμπιδάκης
-   - Ημερομηνια γέννησης : 19 Ιουλιου 2004
-   - Τόπος γένησεις : Μαρούσι
-   - Αδεια οδηγησης : B κατηγοριας
-   - B2 LOWER (Αγγλικων)
 
 ## Βασικοι τροποι επικοινωνιας :
 
