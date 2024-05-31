@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="el">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Προγραμμα βαθμων και αποκτησης πτυχιου</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #a6a6a6;
+            color: #333;
+            position: relative; /* Προσθήκη */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            padding-top: 15px;
+            border-top: 1px solid #ccc;
+        }
+
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        nav ul li a:hover {
+            color: #555;
+        }
+
+       
+
+        header {
+            text-align: center;
+        }
+        
+        p {
+            text-align: justify;
+        }
+
+        /* Εικόνα στην πάνω δεξιά γωνία */
+        .logo {
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    width: 100px; /* Ενημερώστε το πλάτος σύμφωνα με τις ανάγκες σας */
+                    height: auto; /* Αυτόματο ύψος για διατήρηση του αναλογικού κλίμακα */
+        }
+      
+        table {
+            width: 100%; /* Κάνε τον πίνακα να καταλαμβάνει το πλήρες πλάτος του περιεχομένου */
+            border-collapse: collapse; /* Συγχώνευση των γραμμών του πίνακα */
+        }
+
+        td {
+            text-align: center; /* Κεντράρισμα του περιεχομένου στα κελιά */
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Αλλαγή του χρώματος φόντου για άρτιες γραμμές */
+        }
+
+
+    </style>
+</head>
+
+
+    <div class="container">
+        
+		<header>
+            <h2>Βαθμοί μαθημάτων - Αναλυτική βαθμολογία - ECTS - Στατιστικά </h2>
+            
+            <nav>
+                <ul>
+                    <li><a class="inline-flex items-center px-4 py-2 mt-2 font-semibold text-lg tracking-tighter bg-blue-600 text-white" href="Arxiki.html"> Τελικοί βαθμοί </a></li>
+                    <li><a class="inline-flex items-center px-4 py-2 mt-2 font-semibold text-lg tracking-tighter bg-blue-600 text-white" href="Analitiki_bathmologia.html"> Αναλυτική βαθμολογία </a></li>
+                                    <!--<li><a class="inline-flex items-center px-4 py-2 mt-2 font-semibold text-lg tracking-tighter bg-blue-600 text-white" href="Statistika.html">Στατιστικά </a></li>-->
+                    <li><a class="inline-flex items-center px-4 py-2 mt-2 font-semibold text-lg tracking-tighter bg-blue-600 text-white" href="Ects.html">ECTS Πτυχίου</a></li>
+
+                </ul>
+            </nav>
+
+        </header>
+    <body>	
+
+        <center><h3>Μαθήματα 1ου εξαμήνου</h3></center>
+ 
+
+		<table >
+            <tr>
+                <td><b>A/A</b></td>
+                <td><b>Όνομα Μαθήματος</b> </td>
+                <td><b>ECTS</b></td>
+                <td><b>Τελικός προβιβάσιμος βαθμός </b></td> 
+            </tr>
+
+            <tr style="color: rgb(0, 255, 98);">
+                <td>1</td>
+                <td>Γραμμική Άλγεβρα</td>
+                <td>6</td>
+                <td>5</td> 
+            </tr>
+
+            <tr style="color: rgb(0, 255, 98);">
+                <td>2</td>
+                <td>Διακριτά Μαθηματικά </td>
+                <td>7</td>
+                <td>6</td>
+            </tr>
+
+            <tr style="color: rgb(0, 255, 98);">
+                <td>3</td>
+                <td>Εισαγωγή στην Πληροφορική και στις Τηλεπικοινωνίες </td>
+                <td>2</td>
+                <td>7</td>
+            </tr>
+            
+            <tr style="color: rgb(0, 255, 98);">
+                <td>4</td>
+                <td>Εισαγωγή στον Προγραμματισμό </td>
+                <td>7</td>
+                <td>5</td>
+            </tr>
+
+            <tr style="color: red;">
+                <td>5</td>
+                <td>Λογική Σχεδίαση </td>
+                <td>6</td>
+                <td>...</td>
+            </tr>
+         </table>
+
+         <center><h3>Μαθήματα 2ου εξαμήνου</h3></center>
+
+
+         <table>
+            
+            <tr>
+                <td><b>A/A</b></td>
+                <td><b>Όνομα Μαθήματος</b> </td>
+                <td><b>ECTS</b></td>
+                <td><b>Τελικός προβιβάσιμος βαθμός </b></td> 
+            </tr>
+
+            <tr style="color: red;"> 
+                <td>1</td>
+                <td>Ανάλυση Ι</td>
+                <td>8</td>
+                <td>...</td>
+            </tr>
+
+            <tr style="color: rgb(0, 255, 98);">
+                <td>2</td>
+                <td>Αρχιτεκτονική Υπολογιστών Ι </td>
+                <td>7</td>
+                <td>5</td>
+            </tr>
+
+            <tr style="color: red;">
+                <td>3</td>
+                <td>Δομές Δεδομένων και Τεχνικές Προγραμματισμού </td>
+                <td>7</td>
+                <td>...</td>
+            </tr>
+            
+            <tr style="color: red;">
+                <td>4</td>
+                <td>Ηλεκτρομαγνητισμός – Οπτική και Σύγχρονη Φυσική </td>
+                <td>8</td>
+                <td>...</td>
+            </tr>
+
+            <tr style="color: red;">
+                <td>5</td>
+                <td>Αρχιτεκτονική Υπολογιστών Ι (Εργ) </td>
+                <td>7</td>
+                <td>...</td>
+            </tr>
+        </table>
+
+        <center><h3>Μαθήματα 3ου εξαμήνου</h3></center>
+
+
+        <table>
+
+            <tr>
+                <td><b>A/A</b></td>
+                <td><b>Όνομα Μαθήματος</b> </td>
+                <td><b>ECTS</b></td>
+                <td><b>Τελικός προβιβάσιμος βαθμός </b></td> 
+            </tr>
+
+            <tr style="color: rgb(0, 255, 98);">
+                <td>1</td>
+                <td>Ανάλυση ΙΙ</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+
+            <tr style="color: red;">
+                <td>2</td>
+                <td>Αντικειμενοστραφής Προγραμματισμός </td>
+                <td>8</td>
+                <td>...</td>
+            </tr>
+
+            <tr style="color: red;">
+                <td>3</td>
+                <td>Πιθανότητες και Στατιστική </td>
+                <td>6</td>
+                <td>...</td>
+            </tr>
+            
+            <tr style="color: rgb(0, 255, 98);">
+                <td>4</td>
+                <td>Σήματα και Συστήματα </td>
+                <td>6</td>
+                <td>5</td>
+            </tr>
+        </table>
+
+        <center><h3>Μαθήματα 4ου εξαμήνου</h3></center>
+
+
+        <table>
+            
+            <tr>
+                <td><b>A/A</b></td>
+                <td><b>Όνομα Μαθήματος</b> </td>
+                <td><b>ECTS</b></td>
+                <td><b>Τελικός προβιβάσιμος βαθμός </b></td> 
+            </tr>
+
+            <tr style="color: rgb(0, 0, 0);">
+                <td>1</td>
+                <td>Αλγόριθμοι και Πολυπλοκότητα</td>
+                <td>8</td>
+                <td>...</td>
+            </tr>
+
+            <tr style="color: rgb(0, 0, 0);">
+                <td>2</td>
+                <td>Δίκτυα Επικοινωνιών I </td>
+                <td>6</td>
+                <td>...</td>
+            </tr>
+
+            <tr style="color: rgb(0, 0, 0);">
+                <td>3</td>
+                <td>Εργαστήριο Δικτύων Επικοινωνιών Ι </td>
+                <td>2</td>
+                <td>...</td>
+            </tr>
+            
+            <tr style="color: rgb(0, 0, 0);">
+                <td>4</td>
+                <td>Συστήματα Επικοινωνιών </td>
+                <td>7</td>
+                <td>...</td>
+            </tr>
+
+            <tr style="color: rgb(0, 0, 0);">
+                <td>5</td>
+                <td>Σχεδίαση και Χρήση Βάσεων Δεδομένων </td>
+                <td>7</td>
+                <td>...</td>
+            </tr>
+
+        </table>
+    
+    </div>
+</body>
+<footer>© Copyright Antony 2024</footer> 
+</html>
