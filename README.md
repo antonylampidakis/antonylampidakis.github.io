@@ -10,6 +10,7 @@ Hello word !!!
 A) Επικοινωνία μεσο email :
   * antonylampidakis@gmail.com
   *  sdi2200088@di.uoa.gr
+  *  antonylampidakis@antonylampidakis.com
 
 B) Επικοινωνια μεσο sosial media :
   * Facebook : Αντωνης Λαμπιδακης
